@@ -1,0 +1,86 @@
+html {
+    font-size: 12px;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+}
+
+header {
+    font-family: sans-serif;
+}
+
+.n1 {padding: 10px;
+    text-align: left; }
+.n2 {padding: 10px;
+    text-align: right;}
+.n3 {padding: 10px;
+    text-align: right}
+.nav-box {
+    position: center;
+    width: auto;
+    height: 10vh;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    word-spacing: 5em;
+   
+
+    
+}
+.box {
+    width: auto;
+    border-width: 1px;
+    text-align: center;
+    padding: 200px;
+
+}
+
+
+.f1 {padding: 10px;
+    text-align: left;}
+.f2 {padding: 10px;
+    text-align: center;}
+.f3 {padding: 10px;
+    text-align: right;}
+.footer-box {
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-style: solid;
+    border-color: #e4e4e4;
+    border-width: 1px;
+    padding: 2px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    word-spacing: 5em;
+}
+
+
+
+p {color: black;
+    font-size: small;
+
+}
+
+ 
+/* this section is just a test - update sooon */ 
+#main {
+    padding: 15px;
+    background: #ffffff;
+}
+/* input below was copied from https://stackoverflow.com/questions/13761654/html5-image-icon-to-input-placeholder but not working */
+input#search{
+    background-image:  image(magnifying_glass.png);
+    background-repeat: no-repeat;
+    text-indent: 20px;
+   }
+   
+   input#search:focus{
+    background-image:none;
+   }
+
+  
