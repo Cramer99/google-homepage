@@ -3,24 +3,36 @@
 <html>
     <head>
         <link href="styles/style.css" rel="stylesheet">
-        <meta charset="utf-8">
         <title>My Google Page</title>
-        
     </head>
 <main id="main" lang="en">
     
     <link href="styles/style.css">
     <meta charset="utf-8">
 <body>
-    <div class="nav-box"> 
-        <div class="n1">About Store </div>
-        <div class="n2"> </div> 
-        <div class="n3">Gmail Images</div>
- </div>
+   
+    <div class="navbar"> 
+        <nav class="navbar_left">
+            <a href="" class="header-links">About</a>
+            <a href="" class="header-links">Store</a>
+        </nav>
+        <nav class="navbar_right">
+            <a class="header-links">Gmail</a>
+            <a class="header-links">Images</a>
+            <a href="index.html"><div class="apps-logo"></a>
+        </nav>
+    </div>
+   
     <div class="box">
         <img src="images/googlelogo_color_272x92dp.png" alt="Google image">
-      <form id=searchbar>  
-        <input type="text" placeholder= magnifying_glass.png>
+     <div class="search-elements">
+         <div class="search-round-border">
+             <div class="search-logo"></div>
+         </div>
+     </div>
+     
+        <form id=searchbar>  
+        <input class=search-box type="text">
         <br>
         <input type="submit" value="Google Search">
         <input type="submit" value="I'm Feeling Lucky">
@@ -28,12 +40,18 @@
     </div> 
     
 </main>
-    <div class="footer-box">
-        <div class="f1">Advertising Business How_Search_Works</div>
-        <div class="f2"> </div>
-        <div class="f3">Privacy Terms Settings</div>
-    
-    </div>
+    <footer class="footer-box">
+        <div class="footer-links">
+        <a class="footer-links">Advertising</a>
+        <a class="footer-links">Business</a>  
+        <a class="footer-links">How Search Works</a>
+        </div>
+        <div class="footer-links">
+        <a class="footer-links">Privacy </a>
+        <a class="footer-links">Terms </a>
+        <a class="footer-links">Settings </a>
+        </div>
+    </footer>
 </body>
-
+</html>
 

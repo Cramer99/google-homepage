@@ -1,86 +1,133 @@
 html {
     font-size: 12px;
+    font-family: arial, sans-serif;
 }
 body {
     width: 100vw;
     height: 100vh;
     place-items: center;
+    font-size: 0.8em;
 }
 
-header {
-    font-family: sans-serif;
+a {
+    text-decoration: none;
+    color: #5f6368;
+    cursor: pointer;
 }
 
-.n1 {padding: 10px;
-    text-align: left; }
-.n2 {padding: 10px;
-    text-align: right;}
-.n3 {padding: 10px;
-    text-align: right}
-.nav-box {
-    position: center;
-    width: auto;
-    height: 10vh;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    word-spacing: 5em;
-   
+a:hover {
+    text-decoration: underline;
+}
 
-    
+
+
+header, footer,  .footer-box  {
+    font-family:arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+
+.no_underline {
+    font-family: arial, sans-serif;
+    color: black;
+    font-size: 13px;
+    opacity: 0.75;
+
+}
+.apps-logo {
+    width: 32px;
+    height: 32px;
+    background-image: url(" https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+    background-position: -132px 98px;
+    margin: 9px;
+    opacity: 0.5;    
+}
+
+.navbar_left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 125px;
+    margin-left: 5px; }
+.navbar_right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 250px;
+    margin-right: 10px;}
+.navbar, .footer-box {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between; 
+    position: fixed;   
+}
+
+.navbar {
+    top: 0;
+    margin-top: 17px;
+    font-size: 1.8em;
 }
 .box {
     width: auto;
     border-width: 1px;
     text-align: center;
     padding: 200px;
-
 }
 
+.search-elements {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
 
-.f1 {padding: 10px;
-    text-align: left;}
-.f2 {padding: 10px;
-    text-align: center;}
-.f3 {padding: 10px;
-    text-align: right;}
-.footer-box {
-    position: fixed;
-    bottom: 0;
-    left: 0px;
-    width: 100%;
-    background-color: #f2f2f2;
+.search-forms {
+    margin-right: 7px;
+}
+
+.search-round-border {
+    display: flex;
+    justify-content: center;
+    width: 584px;
+    padding: 20px;
     border-style: solid;
-    border-color: #e4e4e4;
+    border-radius: 30px;
     border-width: 1px;
-    padding: 2px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    word-spacing: 5em;
+    border-color: rgba(128, 128, 128, 0.247);
+}
+
+.search-round-border:hover {
+    box-shadow:0px 0px 3px rgba(128, 128, 128, 0.315)
+}
+
+.search-box {
+    width: 546px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+
+.header-links {
+    padding: 0px 5px;}
+.footer-links {
+    padding: 0px 10px;   
+}
+
+.footer-box {
+    bottom: 0;  
+    background-color: #f2f2f2;
+    box-sizing: border-box;
+    border: solid 1px #e4e4e4;
+    font-size: 1.8em;
+      
 }
 
 
 
-p {color: black;
-    font-size: small;
-
-}
-
- 
-/* this section is just a test - update sooon */ 
-#main {
-    padding: 15px;
-    background: #ffffff;
-}
-/* input below was copied from https://stackoverflow.com/questions/13761654/html5-image-icon-to-input-placeholder but not working */
-input#search{
-    background-image:  image(magnifying_glass.png);
-    background-repeat: no-repeat;
-    text-indent: 20px;
-   }
-   
-   input#search:focus{
-    background-image:none;
-   }
 
   
